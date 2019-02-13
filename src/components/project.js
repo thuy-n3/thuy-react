@@ -9,7 +9,7 @@ class Project extends Component{
         <img src="/" className="projectImage" />
         <h3 className="projectText"></h3>
         <div className="linkContainer"></div>
-        <div className="techUsed"></div>
+        <h3 className="techUsed"></h3>
       </div>
     )
   }

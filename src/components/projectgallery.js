@@ -7,7 +7,7 @@ class ProjectGallery extends Component{
         <div className="title"></div>
         <div className="subTitle"></div>
         <div className="grid-container">
-          <div className="rowContainrt">
+          <div className="rowContainer">
             <div className="gridItem">
               <img />
             </div>
