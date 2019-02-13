@@ -59,7 +59,6 @@ class Resume extends React.Component {
         </div>
 
         <div className="experience">
-
           <div className="jobContainer">
             <h2 className="jobTitle">Web Developer</h2>
             <h2 className="companyName">Poetic Systems</h2>
@@ -87,19 +86,19 @@ class Resume extends React.Component {
           </div>
 
           <div className="jobContainer">
-            <h2 className="jobTitle">Chief Marketing Office & Business Development</h2>
-            <h2 className="companyName">Elias Commerical Roof Systems</h2>
+            <h2 className="jobTitle">Accounts Payable/ Accounts Receivables</h2>
+            <h2 className="companyName">Netsync Network Solutions</h2>
             <h2 className="jobDate"></h2>
             <ul>
-              <li>Cultivated relationship with vendors, business partners and potentials clients such as METRO Houston and sought out new ventures inline with company’s focus</li>
-              <li>Design digital content and print materials for events, conventions, and online presences</li>
-              <li>Organized and executed plans for events and conventions such as BOMA EXPO</li>
+              <li>Identified and resolved internal accounts discrepancies with minimal cost to the company</li>
+              <li>Collaborated and streamline AR and AP for sales team and purchasing department</li>
+              <li>Maintained AP and AR accounts ledger to ensure cash and payments are accurately posted to QuickBooks</li>
+              <li>Reconciled vendor’s accounts for variance and produced revenue reports and evaluated open balance reports by collecting, analyzing and summarizing account information</li>
+              <li>Audited reimbursement and created journal entry from all company’s credit card transactions</li>
+              <li>Collected revenues for delinquent’s accounts with outstanding payments to optimize cash flow</li>
             </ul>
           </div>
-
         </div>
-
-        
 
       </diV>
     )
