@@ -9,6 +9,7 @@ class App extends Component {
       <h1>This is from app.js</h1>
 
       <Header />
+      <Resume />
 
       </div>
     );

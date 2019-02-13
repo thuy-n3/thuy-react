@@ -21,7 +21,7 @@ class Resume extends React.Component {
 
         <div className="summaryContainer">
           <h1 className="summaryTitle">Summary</h1>
-          <p className="summaryText">I am a creative front-end developer with a business background. Utilizing techincal skills to develop websites and applications to solve wide range of needs. Seeking a company to apply my abilitiess in key roles that help the company's growth, and to grow as a developer.</p>
+          <p className="summaryText">Creative front-end developer with a business background. Utilizing techincal skills to develop websites and applications to solve wide range of needs. Seeking a company to apply my abilitiess in key roles that help the company's growth, and to grow as a developer.</p>
         </div>
 
         <div className="skillsContainer">
@@ -50,9 +50,56 @@ class Resume extends React.Component {
 
         <div className="education">
           <h1 className="educationTitle">Education</h1>
-          <h3 className="eduName">C.T. Bauer College of Business, University of Houston, BA Finance and Marketing</h3>
-          <h3 className="eduName">The Iron Yard Houston, Front-End Engineering</h3>
+          <div className="eduContainer">
+            <h3 className="eduName">C.T. Bauer College of Business, University of Houston, BA Finance and Marketing</h3>
+          </div>
+          <div className="eduContainer">
+            <h3 className="eduName">The Iron Yard Houston, Front-End Engineering</h3>
+          </div>
         </div>
+
+        <div className="experience">
+
+          <div className="jobContainer">
+            <h2 className="jobTitle">Web Developer</h2>
+            <h2 className="companyName">Poetic Systems</h2>
+            <h2 className="jobDate"></h2>
+            <ul>
+              <li>Developed and maintain client’s websites utilizing Drupal CMS, HTML, CSS, Sass, PHP and JavaScript</li>
+              <li>Communicate with clients through Zendesk for site updates and site support issues</li>
+              <li>Developed and maintain client’s portfolio of 250+ websites with dedicated service</li>
+              <li>Document developmental steps and processes</li>
+              <li>Trained multiple junior developers on developmental processes</li>
+              <li>Work collaboratively with team members to craft solutions and enhancements to client’s site</li>
+              <li>Implementing web accessibility standards on client’s sites</li>
+            </ul>
+          </div>
+
+          <div className="jobContainer">
+            <h2 className="jobTitle">Chief Marketing Office & Business Development</h2>
+            <h2 className="companyName">Elias Commerical Roof Systems</h2>
+            <h2 className="jobDate"></h2>
+            <ul>
+              <li>Cultivated relationship with vendors, business partners and potentials clients such as METRO Houston and sought out new ventures inline with company’s focus</li>
+              <li>Design digital content and print materials for events, conventions, and online presences</li>
+              <li>Organized and executed plans for events and conventions such as BOMA EXPO</li>
+            </ul>
+          </div>
+
+          <div className="jobContainer">
+            <h2 className="jobTitle">Chief Marketing Office & Business Development</h2>
+            <h2 className="companyName">Elias Commerical Roof Systems</h2>
+            <h2 className="jobDate"></h2>
+            <ul>
+              <li>Cultivated relationship with vendors, business partners and potentials clients such as METRO Houston and sought out new ventures inline with company’s focus</li>
+              <li>Design digital content and print materials for events, conventions, and online presences</li>
+              <li>Organized and executed plans for events and conventions such as BOMA EXPO</li>
+            </ul>
+          </div>
+
+        </div>
+
+        
 
       </diV>
     )
