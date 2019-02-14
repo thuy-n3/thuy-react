@@ -11,9 +11,8 @@ class ContactMe extends Component {
           <input className="submit" type="submit" value="Submit"></input>
         </form>
         <div className="socialContainer">
-          <a href="/" className="twitter">Twitter</a>
-          <a href="/" className="linkedin">Linkedin</a>
-          <a href="/" className="github">Github</a>
+          <a href="https://www.linkedin.com/in/thuyngy3n/" target="blank" className="linkedin">Linkedin</a>
+          <a href="https://github.com/thuy-n3" target="blank" className="github">Github</a>
         </div>
       </div>
     )
